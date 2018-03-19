@@ -1,0 +1,34 @@
+    body {
+        background-color: palevioletred;
+        border: 2px dotted black;
+        width: 550px;
+        margin: auto;
+        border-radius:34px;
+        padding:5px;
+    }
+    h1 {
+        text-align:center;
+        font: bold 2em garamond;
+        
+    }
+    h2 {
+        text-align:center;
+        font: italic 1.5em garamond;
+        
+    }
+    body {
+        text-align:center;
+        
+    }
+    
+    .drawing {
+        font: 1em times;
+    }
+    
+    .ballet {
+        font: 1em times;
+    }
+    
+    .taiyaki {
+        font: 1em times;
+    }

@@ -1,0 +1,137 @@
+    body {
+        background-image: url("http://p1.pichost.me/i/37/1606254.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        font: 1.2em times;
+        margin: auto;
+    }
+    
+    h1 {
+        text-align: center;
+        font: italic 3em garamond;
+        color: white;
+    }
+    
+    h2 {
+        text-align: center;
+        font: 2em garamond;
+        border: 3px double;
+        border-color: lavender;
+        border-radius: 2px;
+        padding: 1px;
+        width: 48%;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    h3 {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    .pig {
+
+        text-align: center;
+        border: hidden;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .onik {
+        display:inline-block;
+        width:49%;
+    }
+    
+    .container1 {
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        border: dotted;
+        width: 55%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    .container2 {
+        display:inline-block;
+        width:49%;
+    }
+    
+    .container3 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+        margin-bottom: 5px;
+    }
+    
+    .pictures1 {
+        display:inline-block;
+        width:49%;
+    }
+
+    .container4 {
+        display:inline-block;
+        width:75%;
+    }
+
+    .container5 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+        margin-bottom: 5px;
+    }
+    
+    .container6 {
+        display:inline-block;
+        width:70%;
+    }
+  
+    .container7 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+        margin-bottom: 5px;
+  }
+  
+    .container8 {
+        display:inline-block;
+        width:70%;
+    }
+    
+    .container9 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+        margin-bottom: 5px;
+    }
+    
+    .container10 {
+        display:inline-block;
+        width:70%;
+    }
+    
+    .container11 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+        margin-bottom: 20px;
+    }

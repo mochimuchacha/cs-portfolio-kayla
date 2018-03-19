@@ -1,0 +1,88 @@
+    body {
+        background-image: url("http://p1.pichost.me/i/37/1606254.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        font: 1.2em times;
+        margin: auto;
+    }
+    
+    h1 {
+        text-align: center;
+        font: italic 3em garamond;
+        color: white;
+        
+    }
+    
+    h2 {
+        text-align: center;
+        font: 2em garamond;
+        border: 3px double;
+        border-color: lavender;
+        border-radius: 2px;
+        padding: 1px;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    .container1 {
+        display:inline-block;
+        width:49%;
+    }
+    
+    .container2 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    .container3 {
+        display:inline-block;
+        width:70%;
+    }
+    
+    .container4 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    .container5 {
+        display:inline-block;
+        width:48%;
+    }
+    
+    .container6 {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    .list {
+        text-align: left;
+        font: 1em garamond;
+    }
+    
+    .whoami {
+        width: 550px;
+        margin: auto;
+    }
+    
+    .comsciexpd {
+        width: 550px;
+        margin: auto;
+    }
+    
+    .exskillscode {
+        width: 550px;
+        margin: auto;
+    }
