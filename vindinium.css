@@ -1,4 +1,6 @@
-    body {
+    /* makes sure the wallpaper and scroll is all the same*/
+    /*body text format - same on all pages */
+     body {
         background-image: url("http://politecnicacuenca.com/wp-content/uploads/2018/01/light-purple-fresh-pink-purple-wallpapers-4usky-of-light-purple.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -7,12 +9,13 @@
         margin: auto;
     }
     
+    /*header for the website- same on all pages*/
     h1 {
         text-align: center;
         font: italic 3em garamond;
         color: white;
     }
-    
+    /*format for heading 2 - same on all pages*/
     h2 {
         text-align: center;
         font: 2em garamond;
@@ -26,152 +29,104 @@
         margin-top: 30px;
         background-color: rgba(204,204,255,0.2);
     }
-    
+    /*format for heading 3 - same on all pages*/
     h3 {
         text-align: center;
         margin: 20px;
     }
     
-    .container1 {
+    /*div that controls the text and image*/
+    .introOutside {
         text-align: center;
         border: dotted;
         width: 70%;
         margin: auto;
         border-color: lavender;
         background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
+    }
+    /*div that controls the text only*/
+    .introInside {
+        width:77%;
+        text-align: center;
+        margin: auto;
+    }
+    /*div that controls the picture*/
+    .whatIDidPic {
+        text-align: center;
+        width:49%;
+        margin-left: 135px;
+        margin-top: 20px;
     }
     
-    .container2 {
+    /*div that controls the text and images in this section*/
+    .mineOutisde {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    /*div that controls the text in this section*/
+    .mineInside {
+        display:inline-block;
+        width:55%;
+    }
+    
+    /*div that controls the picture in this section*/
+    .minePic {
+        display:inline-block;
+        width:20%;
+        vertical-align: 60px;
+        margin-top: 70px;
+    }
+    
+    .mineWidth {
+        width: 80%;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    /*div that controls everything in the closestOfRichest section*/
+    .richOutside {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+    }
+    
+    #richText {
+        display:inline-block;
+        width:80%;
+    }
+    
+    .aiInside {
         display:inline-block;
         width:49%;
     }
     
-    .pictures1 {
-        display:inline-block;
-        width:49%;
-        vertical-align: 100px;
-    }
-    
-    .container3 {
+    .aiOutside {
         text-align: center;
         border: dotted;
         width: 70%;
         margin: auto;
         border-color: lavender;
         background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
     }
     
-    .container4 {
-        display:inline-block;
-        width:49%;
+    .aiCodeInside {
+        font-size: 12px
     }
     
-    .pictures2 {
-        display:inline-block;
-        width:49%;
-        vertical-align: 30px;
-    }
-    
-    .container5 {
-        text-align: center;
+    .aiCode {
+        text-align: left;
         border: dotted;
-        width: 70%;
+        width: 85%;
         margin: auto;
         border-color: lavender;
         background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
     }
     
-    .container6 {
-        display:inline-block;
-        width:85%;
-    }
-    
-    .container7 {
-        text-align: center;
-        border: dotted;
-        width: 70%;
-        margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
-    }
-    
-    .container8 {
-        display:inline-block;
-        width:85%;
-    }
-    
-    .container9 {
-        text-align: center;
-        border: dotted;
-        width: 70%;
-        margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
-    }
-    
-    .container10 {
-        display:inline-block;
-        width:45%;
-    }
-    
-    .pictures3 {
-        display:inline-block;
-        width:49%;
-        vertical-align: 0px;
-    }
-    
-    .container11 {
-        text-align: center;
-        border: dotted;
-        width: 70%;
-        margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
-    }
-
-    .container12 {
-        display:inline-block;
-        width:45%;
-    }
-    
-    .pictures4 {
-        display:inline-block;
-        width:49%;
-    }
-    
-    .container13 {
-        text-align: center;
-        border: dotted;
-        width: 70%;
-        margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
-    }
-    
-    .container14 {
-        display:inline-block;
-        width:45%;
-    }
-
-    .pictures5 {
-        display:inline-block;
-        width:49%;
-        vertical-align: 65px;
-    }
-    
-    .container15 {
-        text-align: center;
-        border: dotted;
-        width: 70%;
-        margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 20px;
-    }

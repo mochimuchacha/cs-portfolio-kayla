@@ -1,0 +1,123 @@
+     /* makes sure the wallpaper and scroll is all the same*/
+     body {
+        background-image: url("http://politecnicacuenca.com/wp-content/uploads/2018/01/light-purple-fresh-pink-purple-wallpapers-4usky-of-light-purple.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        font: 1.2em times;
+        margin: auto;
+    }
+    
+    /*header for the website- same on all pages*/
+    h1 {
+        text-align: center;
+        font: italic 3em garamond;
+        color: white;
+    }
+    
+    /*user selection drop down styles*/
+    #typeOfDuck {
+        background-color: #aaff80;
+        border: none;
+        color: black;
+        padding: 3px 15px;
+        text-align: center;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        font: 0.8em Courier;
+    }
+    
+    /*the button to make the selected duck appear style*/
+    #duckBeBorn {
+        background-color: #3399ff;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        font: 0.8em Courier;
+        cursor: help;
+    }
+    
+    /*the button to make the duck eat oats style*/
+    #duckOat {
+        background-color: #9fff80;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        font: 0.8em Courier;
+        cursor: pointer;
+    }
+    
+    /*the button to make the duck eat grapes style*/
+    #duckGrape{
+        background-color: #9fff80;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        font: 0.8em Courier;
+        cursor: pointer;
+    }
+    
+    /*the button to make the duck eat bread style*/
+    #duckBread {
+        background-color: #9fff80;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        font: 0.8em Courier;
+        cursor: pointer;
+    }
+    
+    /*the button to make the duck eat corn style*/
+    #duckCorn {
+        background-color: #9fff80;
+        border: none;
+        color: black;
+        padding: 10px 15px;
+        text-align: center;
+        font: 0.8em Courier;
+        cursor: pointer;
+    }
+    
+    /*the text that appears under the duck style*/
+    #info {
+        text-align: middle;
+        margin-top: 30px;
+        margin-left: 40px;
+        display: inline-block;
+        width: 25%;
+        vertical-align: 200px;
+    }
+    
+    /*picture of the duck that appears*/
+    #duck {
+        display: inline-block;
+    }
+    
+    /* controls the buttons and selection*/
+    .userInputs {
+        text-align: center;
+    }
+    
+    /*controls the duck pictures and the words next to the duck*/
+    .display {
+        text-align: center;
+    }
+    
+    /* big div that holds all of the buttons, selectors and images/text*/
+    #bigDiv {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: #3399ff;
+        background-color: rgba(204,204,255,0.2);
+        margin-bottom: 5px;
+    }
+    
+   

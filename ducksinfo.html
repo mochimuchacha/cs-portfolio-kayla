@@ -1,17 +1,18 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <script src="int2checkpoints/processing.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kayla's Website!!</title>
-    <link rel="stylesheet" href="duckeatingbread.css" type="text/css"/>
+    <title>Ducks Like Food</title>
+    <link rel="stylesheet" href="ducksinfo.css" type="text/css"/>
     <link rel="stylesheet" href="navbar.css" type="text/css"/>
     <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAANJ3rAECw7wAsl+wAQqv1ADur7QA2n+4AMZfsAO31/QD39/cASafwADao7gA+m+kAQLDwADij9AAvmOoAOqvuAPX19QA+ru4AOqLvADip7ADy8/MA8/PzADyl7wBArPQAN53tADWk6gBBqewAMJjrAEem7ADx8fEAOKPtAEKh6gBCq+8APqryAEau9wBAo+0ALpbpADGW6QDv7+8AUKzsADmo8ABHrfIAGiEqAEip7QAumu8APLLtADKb7AA3ofQAP5zpAC6Z6gA9pfEARqPuAD+p7gBQq/AAs8LMADeu8QC50uEANafsAEWl8QAvm+0AO6DvAD2u8QAwlOgAPZnqAEyp7gBJqPEAM5rwADSi6gA1nu0AOaPnAGXH4wAwmugAOaT1AEin7AD29vYA8PLxAFu+9QA/q/IANJvuADux8gD09PQAO6bwAA0VHQAxmukAS6/vADyt7QAzmukAXLXuADui6wAqlecA8vLyADyd6QA7p+4ANZvvABAWGwDw8PAANa/xAC+Y8AAxnO0AJ5HjAB8jKABBsO4APq/xADiV6AAzm+gALpnuAEOx9ABAn+0AQKnyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJS0tLSwkJCQkJCQkJSxFYNkEoTB5LCQkJCQkJS1UqLEodNAxAHksJCQkJUWYhG0IKIDtcbCRbCQkJS00FNSMJCQkJPQYZDUsJCUtWPgJOCQAACWNDMDxRCQkRYThrKRcAAA5iai0DUQkJSwtQACttH0VUUwA8MhYJCQkuZwllBjNJBglfWkgRCQkJFToQGFlSXk8PJS9gCQkJCUtHBRJdBGlXJhw3UQkJCQlLCBQaIhMBPwdkOREJCQkJSxZERlseHh4xaCcWCQkJCQlLERERS0tLERFREQkJCQkJCQkJCQkJCQkJCQkJCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
 </head>
-   <h1>About Me and What I've Learned</h1>
-   
+<body>
+    <!--title of web page-->
+    <h1>About Me and What I've Learned</h1>
+    
 <!--Navigation Bar-->
         <ul class=navbar>
                 <a href="index.html"> <li>✧Index / Introduction✧</li> </a>
@@ -23,12 +24,55 @@
                 <a href="vindinium.html"><li>✧How to Vindinium✧<li></a>
         </ul class=navbar>
 <!--End Navigation Bar-->  
+    
+<div id= "bigDiv">
+    
+    <div class= "userInputs">
+        
+    <!--User selection for what kind of duck appears on the page-->
+    <select id= "typeOfDuck">
+        <!--blank automatic slection-->
+        <option></option>
+        <!--mallard duck will appear-->
+        <option>Mallard</option>
+        <!--domenstic duck will appear-->
+        <option>Domestic</option>
+        <!--marbled duck will appear-->
+        <option>Marbled</option>
+        <!--a goose will appear?-->
+        <option>Goose??</option>
+    </select>
+    
+    <!--Button the user pushes to make the duck appear!!-->
+    <button id= "duckBeBorn">Duck Be Born!</button>
 
-<body>
-<div algin = "center">
-  <canvas id="output-canvas"></canvas>
-  <script src="duckeatingbread.js"></script>
-</div>
+    <!--button to feed duck oats-->
+    <button id= "duckOat">Feed Oats</button>
+    <!--button to feed duck grapes-->
+    <button id= "duckGrape">Feed Grapes</button>
+    <!--button to feed duck bread-->
+    <button id= "duckBread">Feed Bread</button>
+    <!--button to feed duck corn-->
+    <button id= "duckCorn">Feed Corn</button>
+     
+    </div class= "userInputs">
+     
+     
+    <div class= "display">
+        
+    <!--writting that appears automatically-->
+    <div id="duck"></div>
+   
+    <!--witting that will show a reaction from the duck depending on the food-->
+    <div id="info">Find out what ducks feels about different foods!</div>
+   
+    </div class="display">
+
+</div id= "bigDiv">
+    
+    
+    <!--script that connects the js-->
+    <script type= "text/javascript" src="ducksinfo.js"> 
+    </script>
 </body>
-
 </html>

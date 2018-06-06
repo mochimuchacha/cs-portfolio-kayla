@@ -1,0 +1,77 @@
+    body {
+        font: 1.2em times;
+        margin-top: 100px;
+        text-align: center;
+        border: 1px dotted;
+        border-color: #9900ff;
+        padding: 50px;
+        border-width: 4px;
+        width: 49%;
+        margin-left: 270px;
+        border-radius: 20px;
+    }
+    
+    #display {
+        margin-top: 30px;
+        margin-left: 250px;
+        border: 3px dotted;
+        border-color: navy;
+        border-radius: 10px;
+        width: 20%;
+        padding: 5px;
+    }
+    
+    #calculate {
+       background-color: #00b3b3;
+        border: none;
+        color: black;
+        padding: 3px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font: 1em times;
+    }
+    
+    #operations {
+         background-color: #00b3b3;
+        border: none;
+        color: black;
+        padding: 3px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+    #num1 {
+        background-color: #1aa3ff;
+        border: solid;
+        border-color: #ffffff;
+        color: black;
+        padding: 3px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-width: 1px;
+    }
+    
+    #num2 {
+        background-color: #1aa3ff;
+        border: solid;
+        border-color: #ffffff;
+        color: black;
+        padding: 3px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-width: 1px;
+    }

@@ -1,4 +1,4 @@
-    body {
+ body {
         background-image: url("http://politecnicacuenca.com/wp-content/uploads/2018/01/light-purple-fresh-pink-purple-wallpapers-4usky-of-light-purple.jpg");
         background-repeat: no-repeat;
         background-position: center;
@@ -13,26 +13,35 @@
         color: white;
     }
     
-    h2 {
-        text-align: center;
-        font: 2em garamond;
-        border: 3px double;
-        border-color: lavender;
-        border-radius: 2px;
-        padding: 1px;
-        width: 48%;
-        margin: auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
-        background-color: rgba(204,204,255,0.2);
-    }
-    
+   
     h3 {
         text-align: center;
         margin: 20px;
     }
     
-    .container1 {
+    /*div that controls the text and image*/
+    .introOutside {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+    }
+    /*div that controls the text only*/
+    .introInside {
+        width:75%;
+        text-align: center;
+        margin: auto;
+    }
+    /*div that controls the picture*/
+    .whatIDidPic {
+        text-align: center;
+        width:49%;
+        margin-left: 200px;
+    }
+    /*div that controls the text and image in getElementById*/
+    .elementOutside {
         text-align: center;
         border: dotted;
         width: 70%;
@@ -41,19 +50,19 @@
         background-color: rgba(204,204,255,0.2);
         margin-bottom: 5px;
     }
-    
-    .container2 {
+    /*div that controls the text in getElementById*/
+    .elementInside {
         display:inline-block;
         width:49%;
     }
-    
-    .pictures1 {
+    /*div that controls the pictures in getElementById*/
+    .elementPic {
         display:inline-block;
         width:49%;
-        vertical-align: 100px;
+        vertical-align: 60px;
     }
-    
-    .container3 {
+    /*div that controls the text and images in addEventListener*/
+    .listenerOutside {
         text-align: center;
         border: dotted;
         width: 70%;
@@ -62,34 +71,13 @@
         background-color: rgba(204,204,255,0.2);
         margin-bottom: 5px;
     }
-    
-    .container4 {
-        display:inline-block;
-        width:49%;
-    }
-    
-    .pictures2 {
-        display:inline-block;
-        width:49%;
-        vertical-align: 30px;
-    }
-    
-    .container5 {
-        text-align: center;
-        border: dotted;
-        width: 70%;
-        margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
-    }
-    
-    .container6 {
+    /*div that controls only the text in addEventListener*/
+    .listenerInside {
         display:inline-block;
         width:85%;
     }
-    
-    .container7 {
+    /*div that controls the text and images in addEventListener*/
+    .ifElseOutside {
         text-align: center;
         border: dotted;
         width: 70%;
@@ -98,34 +86,25 @@
         background-color: rgba(204,204,255,0.2);
         margin-bottom: 5px;
     }
-    
-    .container8 {
-        display:inline-block;
-        width:85%;
-    }
-    
-    .container9 {
+    /*div that controls the first paragraph in addEventListener*/
+    .ifElsePara1 {
+        width: 80%;
         text-align: center;
-        border: dotted;
-        width: 70%;
         margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 5px;
     }
-    
-    .container10 {
+    /*div that controls the second paragraph in addEventListener*/
+    .ifElsePara2 {
         display:inline-block;
-        width:45%;
+        width:40%;
     }
-    
-    .pictures3 {
+    /*div that controls the pictures in the addEventListener section*/
+    .ifElsePic {
         display:inline-block;
         width:49%;
         vertical-align: 0px;
     }
-    
-    .container11 {
+    /*div that controls the writing in the inside and the pictures*/
+    .htmlOutside {
         text-align: center;
         border: dotted;
         width: 70%;
@@ -134,18 +113,41 @@
         background-color: rgba(204,204,255,0.2);
         margin-bottom: 5px;
     }
-
-    .container12 {
+    /*div that controls the inside text in the innerHTML section*/
+    .htmlInside {
+        text-align: center;
+        width:85%;
+        margin: auto;
+    }
+    /*div that controlls the text and the images in the choices I made section*/
+     .choicesOutside {
+        text-align: center;
+        border: dotted;
+        width: 70%;
+        margin: auto;
+        border-color: lavender;
+        background-color: rgba(204,204,255,0.2);
+        margin-bottom: 5px;
+    }
+    /*div that controls the text in the choice I made section*/
+    .choicesInside {
         display:inline-block;
         width:45%;
     }
-    
-    .pictures4 {
+    /*div that controls one of the paragraphs in the choices I made section*/
+    .paragraphChoices {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    /*div that controls only the pictures in the choices I made section*/
+    .choicesPic {
         display:inline-block;
         width:49%;
+        vertical-align: 45px;
     }
     
-    .container13 {
+    .changesOutside {
         text-align: center;
         border: dotted;
         width: 70%;
@@ -155,23 +157,22 @@
         margin-bottom: 5px;
     }
     
-    .container14 {
-        display:inline-block;
-        width:45%;
-    }
-
-    .pictures5 {
-        display:inline-block;
-        width:49%;
-        vertical-align: 65px;
+    .changesPara1 {
+        text-align: center;
+        width:85%;
+        margin: auto;
     }
     
-    .container15 {
+    .changesPara2 {
         text-align: center;
-        border: dotted;
-        width: 70%;
+        width:54%;
         margin: auto;
-        border-color: lavender;
-        background-color: rgba(204,204,255,0.2);
-        margin-bottom: 20px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .changesPic {
+        display:inline-block;
+        text-align: center;
+        vertical-align: 100px;
     }
